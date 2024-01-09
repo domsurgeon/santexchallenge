@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "dotenv": "^16.3.1",
+    "got": "^14.0.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^8.0.3"
+  },
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
